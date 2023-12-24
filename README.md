@@ -25,7 +25,7 @@
 > Showing [example for ES Module](examples/timer.mjs) | Also abailable: [example for Common JS](examples/timer.cjs)
 
 ```js
-import Pool from 'task-pool';
+import Pool from '@zhangyx1998/task-pool';
 
 // Create a Pool that dispatches up to 10 callbacks at the same time
 const pool = new Pool(10);

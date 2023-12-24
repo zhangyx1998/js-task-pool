@@ -6,7 +6,7 @@
 
 // You should first build the project, see README.md for instructions
 
-const Pool = require('task-pool').default;
+const Pool = require('@zhangyx1998/task-pool').default;
 
 (async () => {
 

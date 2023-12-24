@@ -6,7 +6,7 @@
 
 // You should first build the project, see README.md for instructions
 
-import Pool from 'task-pool';
+import Pool from '@zhangyx1998/task-pool';
 
 // Create a Pool that dispatches up to 10 callbacks at the same time
 const pool = new Pool(10);

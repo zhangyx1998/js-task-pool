@@ -1,5 +1,5 @@
 {
     "dependencies": {
-        "task-pool": "file:../"
+        "@zhangyx1998/task-pool": "file:../"
     }
 }
