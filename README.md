@@ -2,25 +2,27 @@
 
 ## Installation
 
-+ #### As runtime dependency
++ As runtime dependency
 
     ```sh
     npm install --save task-pool
     ```
 
-+ #### As build-time only dependency
++ As build-time only dependency
 
     ```sh
     npm install --save-dev task-pool
     ```
 
-+ #### Just want to try it out?
++ Just want to try it out?
 
     ```sh
     npm install task-pool
     ```
 
 ## Usage
+
+> Showing [example for ES Module](examples/timer.mjs) | Also abailable: [example for Common JS](examples/timer.cjs)
 
 ```js
 import Pool from 'task-pool';
