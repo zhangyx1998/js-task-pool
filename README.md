@@ -5,19 +5,19 @@
 + As runtime dependency
 
     ```sh
-    npm install --save task-pool
+    npm install --save @zhangyx1998/task-pool
     ```
 
 + As build-time only dependency
 
     ```sh
-    npm install --save-dev task-pool
+    npm install --save-dev @zhangyx1998/task-pool
     ```
 
 + Just want to try it out?
 
     ```sh
-    npm install task-pool
+    npm install @zhangyx1998/task-pool
     ```
 
 ## Usage
