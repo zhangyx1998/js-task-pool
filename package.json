@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhangyx1998/task-pool.git"
+    "url": "git+https://github.com/zhangyx1998/js-task-pool.git"
   },
   "keywords": [
     "promise",
@@ -31,9 +31,9 @@
   "author": "Yuxuan Zhang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhangyx1998/task-pool/issues"
+    "url": "https://github.com/zhangyx1998/js-task-pool/issues"
   },
-  "homepage": "https://github.com/zhangyx1998/task-pool#readme",
+  "homepage": "https://github.com/zhangyx1998/js-task-pool#readme",
   "devDependencies": {
     "@types/node": "^20.10.5",
     "typescript": "^5.3.3"
