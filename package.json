@@ -1,5 +1,5 @@
 {
-  "name": "task-pool",
+  "name": "@zhangyx1998/task-pool",
   "version": "1.0.0",
   "description": "Simple and minimalistic JS library for concurrent task pooling",
   "main": "dist/index.js",
