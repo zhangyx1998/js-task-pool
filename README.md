@@ -67,7 +67,7 @@ This package will mitigate such problem for you.
 
 > ##### See:
 >
-> 1. [How can I Interleave / merge async iterables?](https://stackoverflow.com/questions/50585456/how-can-i-interleave-merge-async-iterables) - Stack Overflow
+> 1. [What is the best way to limit concurrency when using ES6's Promise.all()?](https://stackoverflow.com/questions/40639432/what-is-the-best-way-to-limit-concurrency-when-using-es6s-promise-all?noredirect=1&lq=1) - Stack Overflow
 >
 > 2. [Node crashes when building default theme - "JavaScript heap out of memory"](https://github.com/vuejs/vitepress/issues/3362) - VitePress issue
 
