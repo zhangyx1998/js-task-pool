@@ -1,0 +1,41 @@
+{
+  "name": "task-pool",
+  "version": "1.0.0",
+  "description": "Simple and minimalistic JS library for concurrent task pooling",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:esm": "tsc -b tsconfig.esm.json && mv dist/index.js dist/index.mjs",
+    "build:cjs": "tsc -b tsconfig.cjs.json && mv dist/index.js dist/index.cjs",
+    "build": "tsc; npm run build:esm; npm run build:cjs;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhangyx1998/task-pool.git"
+  },
+  "keywords": [
+    "promise",
+    "async",
+    "pooling",
+    "concurrency"
+  ],
+  "author": "Yuxuan Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangyx1998/task-pool/issues"
+  },
+  "homepage": "https://github.com/zhangyx1998/task-pool#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  }
+}
