@@ -1,6 +1,6 @@
 {
   "name": "@zhangyx1998/task-pool",
-  "version": "1.0.0",
+  "version": "1.0.0-release",
   "description": "Simple and minimalistic JS library for concurrent task pooling",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
