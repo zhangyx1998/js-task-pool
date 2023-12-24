@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  publish:
+  publish-github:
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -16,15 +16,24 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: latest
-          registry-url: https://npm.pkg.github.com/
-
-      - run: npm install
-      - run: npm run build
-
+      - run: pnpm install
+      - run: pnpm build
       - run: npm publish --@zhangyx1998:registry=https://npm.pkg.github.com
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
+  publish-npm-org:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+      - run: pnpm install
+      - run: pnpm run build
       - run: npm publish --@zhangyx1998:registry=https://registry.npmjs.org/
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
